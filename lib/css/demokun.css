@@ -1,46 +1,11 @@
-/* Base styles
--------------------------------------------------- */
-
 body {
-  position: static !important; /* Overrides fixed positioned content */
-  font-family: "proxima-nova", "HelveticaNeue-Light", "Helvetica Neue Light", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  line-height: 1.6;
-  color: #333;
-  background-color: #fff;
-  -webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
-  -webkit-text-size-adjust: 100%;
+  margin: 0;
 }
-
-
-/* Typography
--------------------------------------------------- */
-
-hr {
-  height: 0;
-  margin: 10px 0 30px;
-  border: solid #ddd;
-  border-width: 1px 0 0;
-  clear: both;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  text-rendering: optimizeLegibility;
-}
-
-/* iPhone previewer
--------------------------------------------------- */
 
 .iphone {
   position: relative;
   width: 375px;
   height: 806px;
-  font-family: "Helvetica Neue", sans-serif;
   background-image: url("../img/iphone.png");
   margin: 0 auto 0 auto;
 }
@@ -54,9 +19,6 @@ h6 {
   overflow: hidden;
   background-color: white;
 }
-
-/* Media queries
--------------------------------------------------- */
 
 @media only screen and (max-width: 767px) {
   .iphone {
