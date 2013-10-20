@@ -1,5 +1,5 @@
 {
-  "name": "ratchet",
-  "version": "1.0.2",
-  "main": ["./dist/ratchet.js", "./dist/ratchet.css"]
+  "name": "demokun",
+  "version": "0.0.1",
+  "main": ["./lib/css/demokun.css"]
 }
