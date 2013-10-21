@@ -2,6 +2,8 @@
 
 Demo a mobile design in a desktop browser.
 
+![Demokun](https://raw.github.com/jacobthemyth/demokun/master/demokun/img/demokun.png)
+
 ## Getting Started
 
 Just change the iframe target in index.html to wherever your
